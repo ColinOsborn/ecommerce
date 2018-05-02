@@ -1,1 +1,9 @@
+# Ignore a bunch of stuff to keep our repos (c)lean and mean.
+# Configuration files that may contain sensitive information.
+sites/*/settings*.php
+
 node_modules
+
+# Local dev files.
+.DS_Store
+**/.DS_Store
